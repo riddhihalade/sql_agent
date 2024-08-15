@@ -1,4 +1,4 @@
-###Automated Data Analysis with Llama 3 and CrewAI
+Automated Data Analysis with Llama 3 and CrewAI
 Overview
 This project leverages the capabilities of Llama 3 in conjunction with CrewAI to build an automated data analysis pipeline. The pipeline is designed to efficiently analyze data stored in a SQL database, utilizing a team of specialized AI agents, each assigned a specific role in the workflow.
 
@@ -10,11 +10,8 @@ Agent-Based Architecture
 Three AI agents are employed, each with a distinct role:
 
 SQL Developer Agent: Responsible for constructing and executing optimized SQL queries to extract relevant data from the database.
-
 Data Analyst Agent: Analyzes the extracted data, providing detailed insights and interpretations.
-
 Report Writer Agent: Summarizes the analysis into an executive report, focusing on clarity and conciseness.
-
 LLM Integration
 Llama 3 is integrated into the project to handle natural language processing and decision-making tasks. Callback mechanisms are implemented to log and monitor the model's activities for transparency and accuracy.
 
@@ -31,6 +28,7 @@ To set up the project locally:
 Clone the Repository:
 git clone https://github.com/riddhihalade/sql_agent.git
 cd sql_agent
+
 Install Dependencies:
 poetry install
 
@@ -38,4 +36,4 @@ Set Up the Environment:
 Add necessary environment variables and API keys in a .env file located in the project’s root directory.
 
 Prepare the Database:
-Load the dataset of choice into the SQLite database
+Load the dataset of choice into the SQLite database.
