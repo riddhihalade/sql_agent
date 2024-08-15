@@ -1,4 +1,4 @@
-# Automated Data Analysis with Llama 3 and CrewAI
+# SQL AGENT : Automated Data Analysis with Llama 3 and CrewAI
 
 ## Overview
 This project leverages the capabilities of **Llama 3** in conjunction with **CrewAI** to build an automated data analysis pipeline. The pipeline is designed to efficiently analyze data stored in a **SQL database**, utilizing a team of specialized AI agents, each assigned a specific role in the workflow.
