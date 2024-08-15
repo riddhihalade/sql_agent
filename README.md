@@ -34,11 +34,14 @@ To set up the project locally:
    git clone https://github.com/riddhihalade/sql_agent.git
    cd sql_agent
 
+
 2. **Install Dependencies:**
    poetry install
 
-3.**Set Up the Environment:**
+
+3. **Set Up the Environment:**
   Add necessary environment variables and API keys in a .env file located in the project’s root directory.
+
 
 4. **Prepare the Database:**
    Load the dataset of choice into the SQLite database.
