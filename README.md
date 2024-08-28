@@ -6,7 +6,7 @@ This project leverages the capabilities of **Llama 3** in conjunction with **Cre
 ## Key Features
 
 ### Data Management
-The process begins with loading a dataset (`ds-salaries.csv`) into a **SQLite database**. The data is subsequently accessed and queried as part of the automated analysis pipeline.
+The process begins with loading any dataset (`ds-salaries.csv`) into a **SQLite database**. The data is subsequently accessed and queried as part of the automated analysis pipeline.
 
 ### Agent-Based Architecture
 Three AI agents are employed, each with a distinct role:
